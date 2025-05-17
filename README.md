@@ -22,13 +22,14 @@ Developed by: Srinath YG
 RegisterNumber: 212224230274
 ```python
 import numpy as np
-A=np.array([[6,2,3],[3,1,1],[10,3,4]])
-result=np.linalg.inv(A)
-print(result)
+a=np.array([[1,0,3],[-1,2,-2],[2,3,-1]])
+b=np.linalg.inv(a)
+print(b)
 ```
 ## Output:
 
-![434392886-a2710ece-6981-447b-8b81-bdca72e9b551](https://github.com/user-attachments/assets/2f042fa4-ee60-43a9-8e2a-2163da9b242b)
+![image](https://github.com/user-attachments/assets/d995e8d3-19f4-4e47-9b39-a1b9286810b1)
+
 
 ## Result:
 Thus the inverse of given matrix is successfully solved using python program
